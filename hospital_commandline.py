@@ -2,8 +2,12 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys 
 import time
 from selenium.common.exceptions import NoSuchElementException, NoSuchAttributeException
+import sys
 
 
+
+
+#content = driver.find_element_by_class_name('div.section-result')
 
 
 def get_data(driver,city):
@@ -151,6 +155,8 @@ def start_run(city):
 	check_run(driver,city)
 
 
+	
+start_run(sys.argv[1])
 
 
 
@@ -170,3 +176,20 @@ def start_run(city):
 	
 	
 	
+	
+	
+
+	
+
+	
+
+	
+
+	
+	
+	
+	
+	
+
+
+
